@@ -261,7 +261,7 @@ footer h3 font {
   color: #00f59e;
 }
 .social-footer {
-  display: flex;
+  display: none;
   box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   border-radius: 50px;
@@ -358,5 +358,8 @@ footer h3 font {
     padding: 10px 20px;
     width: 100%;
     text-align: center;
+  }
+  .social-footer {
+    display: flex;
   }
 }
